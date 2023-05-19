@@ -1,0 +1,70 @@
+{
+  "objectName" : "uvm-food",
+  "colonyTags" : ["mechanical","commerce"],
+  "rarity" : "Common",
+  "description" : "This vending machine sells all kinds of cooked food.(under construction)",
+  "shortdescription" : "UVM-Food",
+  "race" : "generic",
+  "category" : "other",
+  "price" : 100,
+
+  "glitchDescription" : "Joyful. It sells tasty food.",
+
+  "interactAction" : "OpenMerchantInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/vendingmachine.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : " Universal Vending Machine",
+        "subtitle" : "Make Life Easier"
+      }
+    },
+    "buyFactor" : 2.5,
+    "sellFactor" : 0.2,
+    "items" : [
+      { "item" : "apexfritter" },
+      { "item" : "automatostew" },
+      { "item" : "baconpancakes" },
+      { "item" : "boltos" },
+      { "item" : "cheeseburger" },
+      { "item" : "coralcreepcurry" },
+      { "item" : "cornpeckers" },
+      { "item" : "featherfood" },
+      { "item" : "fishdumplings" },
+      { "item" : "fishfingers" },
+      { "item" : "fishinabone" },
+      { "item" : "fishnchips" },
+      { "item" : "fishpie" },
+      { "item" : "fishstew" },
+      { "item" : "hamburger" },
+      { "item" : "hothothotpot" },
+      { "item" : "meatdumplings" },
+      { "item" : "meatstew" },
+      { "item" : "mushroomquiche" },
+      { "item" : "oceanrisotto" },
+      { "item" : "oceansurprise" },
+      { "item" : "oculemonstew" },
+      { "item" : "omelette" },
+      { "item" : "pasty" },
+      { "item" : "pearlpeapancakes" },
+      { "item" : "pearlpearisotto" },
+      { "item" : "pineapplepizzaslice" },
+      { "item" : "piodiaslice" },
+      { "item" : "pizzaslice" },
+      { "item" : "pizsapslice" }
+    ]
+  },
+  "inventoryIcon" : "uvmicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "uvm-food.png",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ]
+}

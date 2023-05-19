@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "silverbar", "count":5},
+    { "item" : "ironbar", "count" : 15 }
+  ],
+  "output" : {
+    "item" : "uvm-craft",
+    "count" : 1
+  },
+  "groups" : [ "inventorstable", "craftingstations", "all"]
+}

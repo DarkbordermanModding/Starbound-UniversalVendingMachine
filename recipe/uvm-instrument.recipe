@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "soggypaper", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "uvm-instrument",
+    "count" : 1
+  },
+  "groups" : [ "uvm","all","modded"]
+}

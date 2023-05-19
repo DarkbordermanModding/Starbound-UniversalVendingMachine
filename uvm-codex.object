@@ -1,0 +1,177 @@
+{
+  "objectName" : "uvm-codex",
+  "colonyTags" : ["mechanical","commerce"],
+  "rarity" : "Common",
+  "description" : "This vending machine sells all kinds of codex.",
+  "shortdescription" : "UVM-Codex",
+  "race" : "generic",
+  "category" : "other",
+  "price" : 100,
+
+  "glitchDescription" : "Joyful. It can help me collect codex.",
+
+  "interactAction" : "OpenMerchantInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/vendingmachine.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : " Universal Vending Machine",
+        "subtitle" : "Make Life Easier"
+      }
+    },
+    "buyFactor" : 8,
+    "sellFactor" : 0.2,
+    "items" : [
+      { "item" : "protectorate1-codex" },
+      { "item" : "protectorate2-codex" },
+      //
+      { "item" : "apexhistory1-codex" },
+      { "item" : "apexhistory2-codex" },
+      { "item" : "apexhistory3-codex" },
+      { "item" : "apexhistory4-codex" },
+      { "item" : "apexhistory5-codex" },
+      { "item" : "apexhistory6-codex" },
+      { "item" : "apexhistory7-codex" },
+      { "item" : "apexhistory8-codex" },
+      { "item" : "apexhistory9-codex" },
+      { "item" : "apexhistory10-codex" },
+      { "item" : "apexspace1-codex" },
+      //
+      { "item" : "avianhistory1-codex" },
+      { "item" : "avianhistory2-codex" },
+      { "item" : "avianhistory3-codex" },
+      { "item" : "avianhistory4-codex" },
+      { "item" : "avianhistory5-codex" },
+      { "item" : "avianhistory6-codex" },
+      { "item" : "avianhistory7-codex" },
+      { "item" : "avianhistory8-codex" },
+      { "item" : "avianhistory9-codex" },
+      { "item" : "yolotlisdiary1-codex" },
+      { "item" : "yolotlisdiary2-codex" },
+      { "item" : "yolotlisdiary3-codex" },
+      { "item" : "yolotlisdiary4-codex" },
+      //
+      { "item" : "floranhistory1-codex" },
+      { "item" : "floranhistory2-codex" },
+      { "item" : "floranhistory3-codex" },
+      { "item" : "floranhistory4-codex" },
+      { "item" : "floranhistory5-codex" },
+      { "item" : "floranhistory6-codex" },
+      { "item" : "floranhistory7-codex" },
+      { "item" : "floranhistory8-codex" },
+      { "item" : "floranhistory9-codex" },
+      { "item" : "floranhistory10-codex" },
+      //
+      { "item" : "glitchhistory1-codex" },
+      { "item" : "glitchhistory2-codex" },
+      { "item" : "glitchhistory3-codex" },
+      { "item" : "glitchhistory4-codex" },
+      { "item" : "glitchhistory5-codex" },
+      { "item" : "glitchhistory6-codex" },
+      { "item" : "glitchhistory7-codex" },
+      { "item" : "glitchhistory8-codex" },
+      { "item" : "glitchhistory9-codex" },
+      //
+      { "item" : "humanhistory1-codex" },
+      { "item" : "humanhistory2-codex" },
+      { "item" : "humanhistory3-codex" },
+      { "item" : "humanhistory4-codex" },
+      { "item" : "humanhistory5-codex" },
+      { "item" : "humanhistory6-codex" },
+      { "item" : "humanhistory7-codex" },
+      { "item" : "humanhistory8-codex" },
+      { "item" : "humanhistory9-codex" },
+      { "item" : "humanhistory10-codex" },
+      { "item" : "humanspace1-codex" },
+      //
+      { "item" : "hyloylhistory1-codex" },
+      { "item" : "hylotlhistory2-codex" },
+      { "item" : "hylotlhistory3-codex" },
+      { "item" : "hylotlhistory4-codex" },
+      { "item" : "hylotlhistory5-codex" },
+      { "item" : "hylotlhistory6-codex" },
+      { "item" : "hylotlhistory7-codex" },
+      { "item" : "hylotlhistory8-codex" },
+      { "item" : "hylotlspace1-codex" },
+      //
+      { "item" : "bossdreadwing-codex" },
+      { "item" : "bosshockhopper-codex" },
+      { "item" : "castleking01-codex" },
+      { "item" : "castleking02-codex" },
+      { "item" : "castleking03-codex" },
+      { "item" : "castleking04-codex" },
+      { "item" : "castleking05-codex" },
+      { "item" : "castleking06-codex" },
+      //
+      { "item" : "lunarmission1-codex" },
+      { "item" : "lunarmission2-codex" },
+      { "item" : "lunarmission3-codex" },
+      { "item" : "lunarmission4-codex" },
+      //
+      { "item" : "floranmission1-codex" },
+      { "item" : "floranmission2-codex" },
+      { "item" : "floranmission3-codex" },
+      { "item" : "floranmission4-codex" },
+      //
+      { "item" : "hylotlmission1-codex" },
+      { "item" : "hylotlmission2-codex" },
+      { "item" : "hylotlmission3-codex" },
+      { "item" : "hylotlmission4-codex" },
+      { "item" : "hylotlmission5-codex" },
+      { "item" : "hylotlmission6-codex" },
+      { "item" : "hylotlmission7-codex" },
+      { "item" : "hylotlmission8-codex" },
+      { "item" : "hylotlmission9-codex" },
+      //
+      { "item" : "avianmission1-codex" },
+      { "item" : "avianmission2-codex" },
+      { "item" : "avianmission3-codex" },
+      { "item" : "avianmission4-codex" },
+      //
+      { "item" : "apexmission1-codex" },
+      { "item" : "apexmission2-codex" },
+      { "item" : "apexmission3-codex" },
+      { "item" : "apexmission4-codex" },
+      //
+      { "item" : "glitchmission1-codex" },
+      { "item" : "glitchmission2-codex" },
+      { "item" : "glitchmission3-codex" },
+      { "item" : "glitchmission4-codex" },
+      //
+      { "item" : "esthersjournal-codex" },
+      { "item" : "finalpostcard-codex" },
+      { "item" : "ancientalphabet-codex" },
+      //
+      { "item" : "colonymanual-codex" },
+      { "item" : "colonystory1-codex" },
+      { "item" : "colonystory2-codex" },
+      { "item" : "colonystory3-codex" },
+      { "item" : "colonystory4-codex" },
+      { "item" : "colonystory5-codex" },
+      { "item" : "colonystory6-codex" },
+      //
+      { "item" : "sewerdayout-codex" },
+      { "item" : "castleguest-codex" },
+      { "item" : "castleprefix-codex" },
+      { "item" : "castlemisunderstanding-codex" },
+      { "item" : "townresistance-codex" },
+      { "item" : "townsilly-codex" },
+      { "item" : "florvilarchitect-codex" },
+      { "item" : "shipseasick-codex" },
+      { "item" : "trappedtomb-codex" }
+    ]
+  },
+  "inventoryIcon" : "uvmicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "uvm-codex.png",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ]
+}

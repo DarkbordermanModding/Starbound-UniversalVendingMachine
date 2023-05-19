@@ -1,0 +1,72 @@
+{
+  "objectName" : "uvm-instrument",
+  "colonyTags" : ["mechanical","commerce"],
+  "rarity" : "Common",
+  "description" : "This vending machine sells all kinds of instruments.",
+  "shortdescription" : "UVM-Instrument",
+  "race" : "generic",
+  "category" : "other",
+  "price" : 100,
+
+  "glitchDescription" : "Joyful. It can help me collect instruments.",
+
+  "interactAction" : "OpenMerchantInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/vendingmachine.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : " Universal Vending Machine",
+        "subtitle" : "Make Life Easier"
+      }
+    },
+    "buyFactor" : 1.5,
+    "sellFactor" : 0.2,
+    "items" : [
+      { "item" : "accordion" },
+      { "item" : "acousticguitar" },
+      { "item" : "banjo" },
+      { "item" : "bassguitar" },
+      { "item" : "bones" },
+      { "item" : "brightpiano" },
+      { "item" : "clarinet" },
+      { "item" : "drumkit" },
+      { "item" : "dulcimer" },
+      { "item" : "electricbass" },
+      { "item" : "flute" },
+      { "item" : "harmonica" },
+      { "item" : "harp" },
+      { "item" : "keyboard" },
+      { "item" : "koto" },
+      { "item" : "leadguitar" },
+      { "item" : "microphone" },
+      { "item" : "microphonefem" },
+      { "item" : "musicbox" },
+      { "item" : "nylonguitar" },
+      { "item" : "oboe" },
+      { "item" : "ocarina" },
+      { "item" : "overdriveguitar" },
+      { "item" : "piano" },
+      { "item" : "reedorgan" },
+      { "item" : "rockorgan" },
+      { "item" : "saxophone" },
+      { "item" : "spaceorgan" },
+      { "item" : "squarewave" },
+      { "item" : "steeldrum" },
+      { "item" : "trumpet" },
+      { "item" : "violin" }
+    ]
+  },
+  "inventoryIcon" : "uvmicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "uvm-instrument.png",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ]
+}

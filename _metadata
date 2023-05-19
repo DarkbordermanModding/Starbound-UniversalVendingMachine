@@ -1,0 +1,9 @@
+{
+  "version" : "1.0.0",
+  "author" : "Divik",
+  "description" : "UniversalVendingMachine(UVM) is a mod that helps collect lots of stuff.\nI create this mod because some steam achievement is pretty hard to achieve(Like Well known and Bug Free).\nThis mod offer a way to collect it instantly(with enough pixels  of course).\nBTW if you use my old mod Instrument Craft you can use this as it contains all instrument\n===craft===\ncraft a inventor table\ncraft Universal Vending Machine table(need 15 ironbar and 5 silverbar).\nUse table to craft the vending machine you want(1 tossypaper each).\n\n==machine==\n+all bug\n+all codex\n+all fossil\n+all instrument\n+all action figures\n+all random-gen weapon type(but weapon is random)\n\n* some food(under construction)",
+  "name" : "UniversalVendingMachine",
+  "friendlyName" : "UniversalVendingMachine",
+  "steamContentId" : "1138173873",
+  "link" : "steam://url/CommunityFilePage/1138173873"
+}

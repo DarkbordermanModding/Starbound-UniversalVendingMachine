@@ -1,0 +1,95 @@
+{
+  "objectName" : "uvm-fossil",
+  "colonyTags" : ["mechanical","commerce"],
+  "rarity" : "Common",
+  "description" : "This vending machine sells all kinds of fossils.",
+  "shortdescription" : "UVM-Fossil",
+  "race" : "generic",
+  "category" : "other",
+  "price" : 100,
+
+  "glitchDescription" : "Joyful. It can help me collect fossils.",
+
+  "interactAction" : "OpenMerchantInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/vendingmachine.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : " Universal Vending Machine",
+        "subtitle" : "Make Life Easier"
+      }
+    },
+    "buyFactor" : 10.0,
+    "sellFactor" : 0.2,
+    "items" : [
+      { "item" : "amberfossil" },
+      { "item" : "ammonitefossil" },
+      { "item" : "eggfossil" },
+      { "item" : "fernfossil" },
+      { "item" : "fishfossil" },
+      { "item" : "mysteriousalienfossil" },
+      { "item" : "penguinfossil" },
+      { "item" : "sabertoothfossil" },
+      { "item" : "trackfossil" },
+      { "item" : "trilobitefossil" },
+      { "item" : "apexfossil1" },
+      { "item" : "apexfossil2" },
+      { "item" : "apexfossil3" },
+      { "item" : "avianfossil1" },
+      { "item" : "avianfossil2" },
+      { "item" : "avianfossil3" },
+      { "item" : "floranfossil1" },
+      { "item" : "floranfossil2" },
+      { "item" : "floranfossil3" },
+      { "item" : "glitchfossil1" },
+      { "item" : "glitchfossil2" },
+      { "item" : "glitchfossil3" },
+      { "item" : "humanfossil1" },
+      { "item" : "humanfossil2" },
+      { "item" : "humanfossil3" },
+      { "item" : "hylotlfossil1" },
+      { "item" : "hylotlfossil2" },
+      { "item" : "hylotlfossil3" },
+      { "item" : "alpacafossil1" },
+      { "item" : "alpacafossil2" },
+      { "item" : "alpacafossil3" },
+      { "item" : "avioscalefossil1" },
+      { "item" : "avioscalefossil2" },
+      { "item" : "avioscalefossil3" },
+      { "item" : "froggfossil1" },
+      { "item" : "froggfossil2" },
+      { "item" : "froggfossil3" },
+      { "item" : "mysteriousfossil1" },
+      { "item" : "mysteriousfossil2" },
+      { "item" : "mysteriousfossil3" },
+      { "item" : "ixodoomfossil1" },
+      { "item" : "ixodoomfossil2" },
+      { "item" : "ixodoomfossil3" },
+      { "item" : "ixodoomfossil4" },
+      { "item" : "ixodoomfossil5" },
+      { "item" : "ophidauntfossil1" },
+      { "item" : "ophidauntfossil2" },
+      { "item" : "ophidauntfossil3" },
+      { "item" : "ophidauntfossil4" },
+      { "item" : "ophidauntfossil5" },
+      { "item" : "trexfossil1" },
+      { "item" : "trexfossil2" },
+      { "item" : "trexfossil3" },
+      { "item" : "trexfossil4" },
+      { "item" : "trexfossil5" }
+    ]
+  },
+  "inventoryIcon" : "uvmicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "uvm-fossil.png",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ]
+}

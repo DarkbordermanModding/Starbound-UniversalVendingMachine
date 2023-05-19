@@ -1,0 +1,38 @@
+{
+  "objectName" : "uvm-craft",
+  "printable" : false,
+  "price" : 100,
+  "rarity" : "Uncommon",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/craftingvendingmachine.config",
+    "filter" : [ "uvm" ]
+  },
+  "description" : "Can be used to produce UVM series",
+  "shortdescription" : "^orange;Universal Vending Machine^white;",
+  "race" : "generic",
+  "category" : "Crafting",
+  "learnBlueprintsOnPickup" : [
+    "uvm-af",
+    "uvm-bug",
+    "uvm-codex",
+    "uvm-food",
+    "uvm-fossil",
+    "uvm-instrument",
+    "uvm-melee",
+    "uvm-ranged"
+  ],
+  "inventoryIcon" : "uvm-crafticon.png",
+  "orientations" : [
+    {
+      "dualImage" : "uvm-craft.png",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

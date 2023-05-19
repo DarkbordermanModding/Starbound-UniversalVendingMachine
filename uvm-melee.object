@@ -1,0 +1,58 @@
+{
+  "objectName" : "uvm-melee",
+  "colonyTags" : ["mechanical","commerce"],
+  "rarity" : "Common",
+  "description" : "This vending machine sells some kinds of melee weapon.",
+  "shortdescription" : "UVM-Melee",
+  "race" : "generic",
+  "category" : "other",
+  "price" : 100,
+
+  "glitchDescription" : "Joyful. It can help me get some weapon.",
+
+  "interactAction" : "OpenMerchantInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/vendingmachine.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : " Universal Vending Machine",
+        "subtitle" : "Make Life Easier"
+      }
+    },
+    "buyFactor" : 1.5,
+    "sellFactor" : 0.2,
+    "items" : [
+      { "item" : { "name" : "commonbroadsword", "parameters" : { "level" : 10 } } },
+      { "item" : { "name" : "uncommonbroadsword", "parameters" : { "level" : 10 } } },
+      { "item" : { "name" : "rarebroadsword", "parameters" : { "level" : 10 } } },
+      { "item" : { "name" : "commonaxe", "parameters" : { "level" : 10 } } },
+      { "item" : { "name" : "uncommonaxe", "parameters" : { "level" : 10 } } },
+      { "item" : { "name" : "rareaxe", "parameters" : { "level" : 10 } } },
+      { "item" : { "name" : "commonspear", "parameters" : { "level" : 10 } } },
+      { "item" : { "name" : "uncommonspear", "parameters" : { "level" : 10 } } },
+      { "item" : { "name" : "rarespear", "parameters" : { "level" : 10 } } },
+      { "item" : { "name" : "commonhammer", "parameters" : { "level" : 10 } } },
+      { "item" : { "name" : "uncommonhammer", "parameters" : { "level" : 10 } } },
+      { "item" : { "name" : "rarehammer", "parameters" : { "level" : 10 } } },
+      { "item" : { "name" : "commondagger", "parameters" : { "level" : 10 } } },
+      { "item" : { "name" : "uncommondagger", "parameters" : { "level" : 10 } } },
+      { "item" : { "name" : "raredagger", "parameters" : { "level" : 10 } } },
+      { "item" : { "name" : "commonshortsword", "parameters" : { "level" : 10 } } },
+      { "item" : { "name" : "uncommonshortsword", "parameters" : { "level" : 10 } } },
+      { "item" : { "name" : "rareshortsword", "parameters" : { "level" : 10 } } }
+    ]
+  },
+  "inventoryIcon" : "uvmicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "uvm-melee.png",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ]
+}

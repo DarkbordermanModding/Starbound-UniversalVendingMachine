@@ -1,0 +1,82 @@
+{
+  "objectName" : "uvm-bug",
+  "colonyTags" : ["mechanical","commerce"],
+  "rarity" : "Common",
+  "description" : "This vending machine sells all kinds of capturable bug.",
+  "shortdescription" : "UVM-Bug",
+  "race" : "generic",
+  "category" : "other",
+  "price" : 100,
+
+  "glitchDescription" : "Joyful. It helps me collect bug.",
+
+  "interactAction" : "OpenMerchantInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/vendingmachine.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : " Universal Vending Machine",
+        "subtitle" : "Make Life Easier"
+      }
+    },
+    "buyFactor" : 10,
+    "sellFactor" : 0.2,
+    "items" : [
+      { "item" : "butterbee" },
+      { "item" : "fawnfly" },
+      { "item" : "mudstag" },
+      { "item" : "goldbuck" },
+      { "item" : "sandclown" },
+      { "item" : "sunskipper" },
+      { "item" : "blueback" },
+      { "item" : "greentip" },
+      { "item" : "redwing" },
+      { "item" : "seahornet" },
+      { "item" : "tidefly" },
+      { "item" : "wavebird" },
+      { "item" : "dewhopper" },
+      { "item" : "dustmoth" },
+      { "item" : "muddancer" },
+      { "item" : "frostfleck" },
+      { "item" : "frostfly" },
+      { "item" : "icetip" },
+      { "item" : "hivehog" },
+      { "item" : "shellcreep" },
+      { "item" : "xenofly" },
+      { "item" : "brightstripe" },
+      { "item" : "thornbee" },
+      { "item" : "vineclimber" },
+      { "item" : "gasgiant" },
+      { "item" : "scuttleploom" },
+      { "item" : "stinkjack" },
+      { "item" : "orphanfly" },
+      { "item" : "polarmoth" },
+      { "item" : "snowskater" },
+      { "item" : "aurorabee" },
+      { "item" : "driftbell" },
+      { "item" : "shardwing" },
+      { "item" : "fireygiant" },
+      { "item" : "flameroach" },
+      { "item" : "lavahopper" },
+      { "item" : "ashsprite" },
+      { "item" : "cinderfly" },
+      { "item" : "shadowmoth" },
+      { "item" : "glowbug" },
+      { "item" : "heathugger" },
+      { "item" : "phoenixfly" }
+    ]
+  },
+  "inventoryIcon" : "uvmicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "uvm-bug.png",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ]
+}

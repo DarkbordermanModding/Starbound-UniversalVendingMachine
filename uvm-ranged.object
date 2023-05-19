@@ -1,0 +1,63 @@
+{
+  "objectName" : "uvm-ranged",
+  "colonyTags" : ["mechanical","commerce"],
+  "rarity" : "Common",
+  "description" : "This vending machine sells some kinds of ranged weapon.",
+  "shortdescription" : "UVM-Ranged",
+  "race" : "generic",
+  "category" : "other",
+  "price" : 100,
+
+  "glitchDescription" : "Joyful. It can help me get some weapon.",
+
+  "interactAction" : "OpenMerchantInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/vendingmachine.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : " Universal Vending Machine",
+        "subtitle" : "Make Life Easier"
+      }
+    },
+    "buyFactor" : 1.5,
+    "sellFactor" : 0.2,
+    "items" : [
+      { "item" : { "name" : "commonpistol", "parameters" : { "level" : 10 } } },
+      { "item" : { "name" : "uncommonpistol", "parameters" : { "level" : 10 } } },
+      { "item" : { "name" : "rarepistol", "parameters" : { "level" : 10 } } },
+      { "item" : { "name" : "commonmachinepistol", "parameters" : { "level" : 10 } } },
+      { "item" : { "name" : "uncommonmachinepistol", "parameters" : { "level" : 10 } } },
+      { "item" : { "name" : "raremachinepistol", "parameters" : { "level" : 10 } } },
+      { "item" : { "name" : "commonassaultrifle", "parameters" : { "level" : 10 } } },
+      { "item" : { "name" : "uncommonassaultrifle", "parameters" : { "level" : 10 } } },
+      { "item" : { "name" : "rareassaultrifle", "parameters" : { "level" : 10 } } },
+      { "item" : { "name" : "commonshotgun", "parameters" : { "level" : 10 } } },
+      { "item" : { "name" : "uncommonshotgun", "parameters" : { "level" : 10 } } },
+      { "item" : { "name" : "rareshotgun", "parameters" : { "level" : 10 } } },
+      { "item" : { "name" : "commonsniperrifle", "parameters" : { "level" : 10 } } },
+      { "item" : { "name" : "uncommonsniperrifle", "parameters" : { "level" : 10 } } },
+      { "item" : { "name" : "raresniperrifle", "parameters" : { "level" : 10 } } },
+      { "item" : { "name" : "commongrenadelauncher", "parameters" : { "level" : 10 } } },
+      { "item" : { "name" : "uncommongrenadelauncher", "parameters" : { "level" : 10 } } },
+      { "item" : { "name" : "raregrenadelauncher", "parameters" : { "level" : 10 } } },
+      { "item" : { "name" : "commonrocketlauncher", "parameters" : { "level" : 10 } } },
+      { "item" : { "name" : "uncommonrocketlauncher", "parameters" : { "level" : 10 } } },
+      { "item" : { "name" : "rarerocketlauncher", "parameters" : { "level" : 10 } } },
+      { "item" : { "name" : "rarestaff", "parameters" : { "level" : 10 } } },
+      { "item" : { "name" : "rarewand", "parameters" : { "level" : 10 } } }
+    ]
+  },
+  "inventoryIcon" : "uvmicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "uvm-ranged.png",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ]
+}
